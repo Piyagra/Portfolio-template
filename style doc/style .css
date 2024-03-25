@@ -1,0 +1,484 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.navlink {
+    display: flex;
+    height: 50px;
+    background-color: rgba(68, 67, 67, 0.927);
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    margin-top: 10px;
+
+}
+
+a {
+    padding: 0px 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Portfolio {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.main {
+    background-color: rgb(13, 3, 31);
+
+
+}
+
+.section-first {
+    background-color: rgb(21, 95, 106);
+    height: 450px;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+    padding-top: 10px;
+
+}
+
+.img1 {
+    border-radius: 200px;
+
+
+}
+
+.name {
+    font-size: 25px;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+
+#one {
+    color: rgb(246, 255, 0);
+    font-size: 30px;
+
+}
+
+.section-two {
+    margin-top: 30px;
+    height: 450px;
+    color: white;
+
+
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+
+
+
+}
+
+.medium {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.service {
+    display: flex;
+    width: 350px;
+    height: 300px;
+    font-size: 14px;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px 3px rgba(1, 234, 255, 0.493);
+}
+
+.para1 {
+    margin-left: 8px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/*  */
+.section-three {
+    margin-top: 30px;
+    height: 400px;
+    color: white;
+    display: block;
+
+}
+
+.box3 {
+    display: flex;
+    height: 350px;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.About {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+/* */
+
+.skills {
+    height: 290px;
+}
+
+.HTML {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 35px;
+
+}
+
+.code1 {
+    width: 290px;
+    height: 10px;
+    background-color: rgb(225, 225, 0);
+    border-radius: 10px;
+
+}
+
+.code2 {
+    width: 275px;
+    height: 10px;
+    background-color: rgb(81, 255, 0);
+    border-radius: 10px;
+}
+
+.code3 {
+    width: 290px;
+    height: 10px;
+    background-color: rgb(255, 255, 0);
+    border-radius: 10px;
+
+}
+
+.code4 {
+    width: 270px;
+    height: 10px;
+    background-color: rgb(81, 255, 0);
+    border-radius: 10px;
+}
+
+.code5 {
+    width: 290px;
+    height: 10px;
+    background-color: rgb(255, 255, 0);
+    border-radius: 10px;
+
+}
+
+.code6 {
+    width: 275px;
+    height: 10px;
+    background-color: rgb(81, 255, 0);
+    border-radius: 10px;
+}
+
+
+
+.para {
+    margin-right: 10px;
+}
+
+.edu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    color: white;
+    box-shadow: 3px 3px 3px 3px rgba(1, 234, 255, 0.493);
+}
+
+.graduation {
+    box-shadow: 3px 3px 3px 3px rgba(1, 234, 255, 0.493);
+    width: 310px;
+}
+
+.black {
+    margin-left: 8px;
+}
+
+#degree {
+    margin-left: 8px;
+}
+
+/*  */
+.section-forth {
+    margin-top: 30px;
+    height: 400px;
+    color: white;
+}
+
+.box4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+
+}
+
+
+.work {
+    background-color: rgba(255, 255, 255, 0.135);
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(1, 234, 255, 0.493);
+    border-radius: 2px;
+}
+
+
+
+.section-five {
+    margin-top: 30px;
+    height: 450px;
+    color: white;
+    box-shadow: 3px 3px 3px 3px rgba(1, 234, 255, 0.493);
+
+}
+
+.box5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+
+
+}
+
+input {
+    display: block;
+    width: 600px;
+    height: 60px;
+    margin-top: 5px;
+    padding: 5px;
+
+}
+
+textarea {
+    display: block;
+    margin-top: 5px;
+    width: 600px;
+    padding: 5px;
+}
+
+button {
+    margin-top: 5px;
+    width: 600px;
+    height: 60px;
+    background-color: rgb(85, 142, 0);
+    color: white;
+}
+
+
+
+/* mediaquery */
+
+@media only screen and (max-width:768px) {
+
+
+    .navlink {
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    ul {
+        display: flex;
+        padding-right: 15px;
+        width: 100%;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+    .Portfolio {
+        display: none;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        align-items: center;
+    }
+
+    .img1 {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+    }
+
+    .name {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #one {
+        font-size: 15px;
+    }
+
+    .section-two {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .box2 {
+        display: block;
+
+
+
+    }
+
+    .service {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 210px;
+        font-size: 12px;
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .bold {
+        font-size: 16px;
+    }
+
+    .medium {
+        margin-top: 10px;
+
+    }
+
+    .section-three {
+        margin-top: 0px;
+        height: 70vh;
+        box-shadow: none;
+
+    }
+
+    .box3 {
+        display: block;
+        font-size: 0.8rem;
+        margin: 0px 0px;
+
+    }
+
+    .About,
+    .skills {
+        width: 290px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .skills {
+        height: 300px;
+    }
+
+    .edu {
+        flex-direction: column;
+        font-size: 0.8rem;
+        height: 45vh;
+        box-shadow: none;
+    }
+
+    .graduation {
+
+        width: 80%;
+        box-shadow: none;
+        border: 2px solid rgba(0, 255, 255, 0.274);
+
+    }
+
+    .section-forth {
+        height: 95vh;
+
+    }
+
+    .box4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work {
+        padding: 5px 0px;
+        box-shadow: 2px 2px 2px 2px rgba(1, 234, 255, 0.493);
+    }
+
+    .section-five {
+        height: 90vh;
+        margin-top: 0px;
+        box-shadow: none;
+
+    }
+
+    .box5 {
+        display: block;
+        margin: 0px 0px;
+        padding: 0px 0px;
+
+    }
+
+    form {
+        width: 350px;
+        padding-top: 45px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    textarea,
+    button {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+}
